@@ -10,7 +10,7 @@ int main()
 	struct tm *t;
 	t = localtime(&now);
 	Sleep(1000);
-	printf("%d��%d��%d��%d:%d:%d\n", t->tm_year+1900, t->tm_mon, t->tm_mday, t->tm_hour, t->tm_min, t->tm_sec);
+	printf("%d年%d月%d日%d:%d:%d\n", t->tm_year+1900, t->tm_mon+1, t->tm_mday, t->tm_hour, t->tm_min, t->tm_sec);
 	return 0;
 }
-//10.��Ŀ����ͣһ�����������ʽ����ǰʱ�䡣
+//10.题目：暂停一秒输出，并格式化当前时间。
