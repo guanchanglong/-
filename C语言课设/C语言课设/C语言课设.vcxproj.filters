@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Menu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Studio_UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Studio.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Studio_Persist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityKey_Persist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Seat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Seat_Persist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Seat_UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="listTestDrv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Play.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Play_UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Play_Persist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ticket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ticket_Persist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sale_Persist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Account_Persist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Account_UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule_Persist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sale_UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ticket_UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SalesAnalysis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SalesAnalysis_UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule_UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main_Menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Studio_UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Studio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Studio_Persist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityKey_Persist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Seat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Seat_Persist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Seat_UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="listTestDrv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="unistd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Play_UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Play_Persist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Play.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sale_UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ticket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ticket_Persist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sale_Persist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Account_Persist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Account_UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedule_Persist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedule_UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ticket_UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SalesAnalysis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SalesAnalysis_UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

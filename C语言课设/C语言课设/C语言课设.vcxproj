@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{78F68F79-9F0A-472E-A4E3-29D2D71E4B67}</ProjectGuid>
+    <RootNamespace>C语言课设</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Account.cpp" />
+    <ClCompile Include="Account_Persist.cpp" />
+    <ClCompile Include="Account_UI.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="EntityKey_Persist.cpp" />
+    <ClCompile Include="listTestDrv.cpp" />
+    <ClCompile Include="Main_Menu.cpp" />
+    <ClCompile Include="Play.cpp" />
+    <ClCompile Include="Play_Persist.cpp" />
+    <ClCompile Include="Play_UI.cpp" />
+    <ClCompile Include="Sale.cpp" />
+    <ClCompile Include="SalesAnalysis.cpp" />
+    <ClCompile Include="SalesAnalysis_UI.cpp" />
+    <ClCompile Include="Sale_Persist.cpp" />
+    <ClCompile Include="Sale_UI.cpp" />
+    <ClCompile Include="Schedule.cpp" />
+    <ClCompile Include="Schedule_Persist.cpp" />
+    <ClCompile Include="Schedule_UI.cpp" />
+    <ClCompile Include="Seat.cpp" />
+    <ClCompile Include="Seat_Persist.cpp" />
+    <ClCompile Include="Seat_UI.cpp" />
+    <ClCompile Include="Studio.cpp" />
+    <ClCompile Include="Studio_Persist.cpp" />
+    <ClCompile Include="Studio_UI.cpp" />
+    <ClCompile Include="Ticket.cpp" />
+    <ClCompile Include="Ticket_Persist.cpp" />
+    <ClCompile Include="Ticket_UI.cpp" />
+    <ClCompile Include="源.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="Account_Persist.h" />
+    <ClInclude Include="Account_UI.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="EntityKey_Persist.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="listTestDrv.h" />
+    <ClInclude Include="Main_Menu.h" />
+    <ClInclude Include="Play.h" />
+    <ClInclude Include="Play_Persist.h" />
+    <ClInclude Include="Play_UI.h" />
+    <ClInclude Include="Sale.h" />
+    <ClInclude Include="SalesAnalysis.h" />
+    <ClInclude Include="SalesAnalysis_UI.h" />
+    <ClInclude Include="Sale_Persist.h" />
+    <ClInclude Include="Sale_UI.h" />
+    <ClInclude Include="Schedule.h" />
+    <ClInclude Include="Schedule_Persist.h" />
+    <ClInclude Include="Schedule_UI.h" />
+    <ClInclude Include="Seat.h" />
+    <ClInclude Include="Seat_Persist.h" />
+    <ClInclude Include="Seat_UI.h" />
+    <ClInclude Include="Studio.h" />
+    <ClInclude Include="Studio_Persist.h" />
+    <ClInclude Include="Studio_UI.h" />
+    <ClInclude Include="Ticket.h" />
+    <ClInclude Include="Ticket_Persist.h" />
+    <ClInclude Include="Ticket_UI.h" />
+    <ClInclude Include="unistd.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,87 @@
+﻿生成启动时间为 2020/6/11 21:49:08。
+     1>项目“D:\C语言课设\C语言课设\C语言课设.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Account.cpp Account_Persist.cpp Account_UI.cpp common.cpp EntityKey_Persist.cpp listTestDrv.cpp Main_Menu.cpp Play.cpp Play_Persist.cpp Play_UI.cpp Sale.cpp SalesAnalysis.cpp SalesAnalysis_UI.cpp Sale_Persist.cpp Sale_UI.cpp Schedule.cpp Schedule_Persist.cpp Schedule_UI.cpp Seat.cpp Seat_Persist.cpp Seat_UI.cpp Studio.cpp Studio_Persist.cpp Studio_UI.cpp Ticket.cpp Ticket_Persist.cpp Ticket_UI.cpp "源.cpp"
+         源.cpp
+         Ticket_UI.cpp
+     1>d:\c语言课设\c语言课设\ticket_ui.cpp(13): warning C4101: “id”: 未引用的局部变量
+     1>d:\c语言课设\c语言课设\ticket_ui.cpp(13): warning C4101: “i”: 未引用的局部变量
+     1>d:\c语言课设\c语言课设\ticket_ui.cpp(14): warning C4101: “studio_id”: 未引用的局部变量
+         Ticket_Persist.cpp
+         Ticket.cpp
+         Studio_UI.cpp
+         Studio_Persist.cpp
+         Studio.cpp
+         Seat_UI.cpp
+         Seat_Persist.cpp
+         Seat.cpp
+         Schedule_UI.cpp
+     1>d:\c语言课设\c语言课设\schedule_ui.cpp(22): warning C4101: “buf”: 未引用的局部变量
+     1>d:\c语言课设\c语言课设\schedule_ui.cpp(21): warning C4101: “ch”: 未引用的局部变量
+     1>d:\c语言课设\c语言课设\schedule_ui.cpp(137): warning C4101: “choice”: 未引用的局部变量
+     1>d:\c语言课设\c语言课设\schedule_ui.cpp(329): warning C4101: “ch”: 未引用的局部变量
+         Schedule_Persist.cpp
+         Schedule.cpp
+         Sale_UI.cpp
+     1>d:\c语言课设\c语言课设\sale_ui.cpp(25): warning C4101: “name”: 未引用的局部变量
+     1>d:\c语言课设\c语言课设\sale_ui.cpp(284): warning C4101: “buf_a”: 未引用的局部变量
+         Sale_Persist.cpp
+         SalesAnalysis_UI.cpp
+         SalesAnalysis.cpp
+         Sale.cpp
+         Play_UI.cpp
+     1>d:\c语言课设\c语言课设\play_ui.cpp(24): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>d:\c语言课设\c语言课设\play_ui.cpp(262): warning C4101: “i”: 未引用的局部变量
+     1>d:\c语言课设\c语言课设\play_ui.cpp(308): warning C4101: “ch”: 未引用的局部变量
+         Play_Persist.cpp
+         正在生成代码...
+     1>d:\c语言课设\c语言课设\sale_ui.cpp(338): warning C4715: “Sale_UI_SellTicket”: 不是所有的控件路径都返回值
+     1>d:\c语言课设\c语言课设\ticket_persist.cpp(116): warning C4715: “Ticket_Perst_SelByID”: 不是所有的控件路径都返回值
+     1>d:\c语言课设\c语言课设\ticket_persist.cpp(204): warning C4715: “Ticket_Perst_SelByseatID”: 不是所有的控件路径都返回值
+         正在编译...
+         Play.cpp
+         Main_Menu.cpp
+         listTestDrv.cpp
+         EntityKey_Persist.cpp
+         common.cpp
+         Account_UI.cpp
+         Account_Persist.cpp
+         Account.cpp
+         正在生成代码...
+     1>d:\c语言课设\c语言课设\account_ui.cpp(39): warning C4715: “swap_charto_meiju”: 不是所有的控件路径都返回值
+     1>d:\c语言课设\c语言课设\account_ui.cpp(27): warning C4715: “swap_meijuto_char”: 不是所有的控件路径都返回值
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C语言课设\Debug\C语言课设.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\C语言课设\Debug\C语言课设.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C语言课设\Debug\C语言课设.lib" /MACHINE:X86 Debug\Account.obj
+         Debug\Account_Persist.obj
+         Debug\Account_UI.obj
+         Debug\common.obj
+         Debug\EntityKey_Persist.obj
+         Debug\listTestDrv.obj
+         Debug\Main_Menu.obj
+         Debug\Play.obj
+         Debug\Play_Persist.obj
+         Debug\Play_UI.obj
+         Debug\Sale.obj
+         Debug\SalesAnalysis.obj
+         Debug\SalesAnalysis_UI.obj
+         Debug\Sale_Persist.obj
+         Debug\Sale_UI.obj
+         Debug\Schedule.obj
+         Debug\Schedule_Persist.obj
+         Debug\Schedule_UI.obj
+         Debug\Seat.obj
+         Debug\Seat_Persist.obj
+         Debug\Seat_UI.obj
+         Debug\Studio.obj
+         Debug\Studio_Persist.obj
+         Debug\Studio_UI.obj
+         Debug\Ticket.obj
+         Debug\Ticket_Persist.obj
+         Debug\Ticket_UI.obj
+         "Debug\源.obj"
+         C语言课设.vcxproj -> D:\C语言课设\Debug\C语言课设.exe
+     1>已完成生成项目“D:\C语言课设\C语言课设\C语言课设.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.30
