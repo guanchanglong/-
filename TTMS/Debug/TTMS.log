@@ -1,0 +1,7 @@
+﻿  Play_UI.c
+D:\Visual Studio 2019\TTMS\View\Play_UI.c(76,19): warning C4013: “getche”未定义；假设外部返回 int
+D:\Visual Studio 2019\TTMS\View\Play_UI.c(56,15): warning C4101: “pos”: 未引用的局部变量
+D:\Visual Studio 2019\TTMS\View\Play_UI.c(53,6): warning C4101: “i”: 未引用的局部变量
+D:\Visual Studio 2019\TTMS\View\Play_UI.c(199,7): warning C4013: “gets”未定义；假设外部返回 int
+D:\Visual Studio 2019\TTMS\View\Play_UI.c(271,8): warning C4013: “getch”未定义；假设外部返回 int
+  TTMS.vcxproj -> D:\Visual Studio 2019\TTMS\Debug\TTMS.exe

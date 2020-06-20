@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Common">
+      <UniqueIdentifier>{7fa0f8a9-8824-4623-9eb1-6d1463c60310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\View">
+      <UniqueIdentifier>{e45b7db4-763a-49a7-a30c-b6c89863ccdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Common">
+      <UniqueIdentifier>{efb91072-55d2-4503-a60c-f690f0d122c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Service">
+      <UniqueIdentifier>{0b0c1605-4e23-499a-a7b9-77e5e1116aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\View">
+      <UniqueIdentifier>{a817697e-b8a3-4d6e-9980-ffb80f173d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Persist">
+      <UniqueIdentifier>{411cf625-f9e4-4ce5-8046-af06194dcce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Persist">
+      <UniqueIdentifier>{b6466d3e-ee5e-4099-9d90-dc8e15e657ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Service">
+      <UniqueIdentifier>{83372a28-ae03-4278-9886-4f51e963e25c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\common.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\list.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\listTestDrv.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Account_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\conio.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Main_Menu.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Play_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Queries_Menu.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Query_Play_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Sale_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\SalesAnalysis_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Schedule_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Seat_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Studio_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Ticket_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Account.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\EntityKey.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Play.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Sale.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\SalesAnalysis.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Schedule.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Seat.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Studio.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Ticket.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Persist\Account_Persist.h">
+      <Filter>头文件\Persist</Filter>
+    </ClInclude>
+    <ClInclude Include="Persist\EntityKey_Persist.h">
+      <Filter>头文件\Persist</Filter>
+    </ClInclude>
+    <ClInclude Include="Persist\Play_Persist.h">
+      <Filter>头文件\Persist</Filter>
+    </ClInclude>
+    <ClInclude Include="Persist\Query_Persist.h">
+      <Filter>头文件\Persist</Filter>
+    </ClInclude>
+    <ClInclude Include="Persist\Sale_Persist.h">
+      <Filter>头文件\Persist</Filter>
+    </ClInclude>
+    <ClInclude Include="Persist\SalesAnalysis_Persist.h">
+      <Filter>头文件\Persist</Filter>
+    </ClInclude>
+    <ClInclude Include="Persist\Schedule_Persist.h">
+      <Filter>头文件\Persist</Filter>
+    </ClInclude>
+    <ClInclude Include="Persist\Seat_Persist.h">
+      <Filter>头文件\Persist</Filter>
+    </ClInclude>
+    <ClInclude Include="Persist\Studio_Persist.h">
+      <Filter>头文件\Persist</Filter>
+    </ClInclude>
+    <ClInclude Include="Persist\Ticket_Persist.h">
+      <Filter>头文件\Persist</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\unistd.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\common.c">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\listTestDrv.c">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="View\conio.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Main_Menu.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Play_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Queries_Menu.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Query_Play_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Sale_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\SalesAnalysis_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Schedule_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Seat_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Studio_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Ticket_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Account.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\EntityKey.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Play.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Sale.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\SalesAnalysis.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Schedule.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Seat.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Studio.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Ticket.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Persist\Account_Persist.c">
+      <Filter>源文件\Persist</Filter>
+    </ClCompile>
+    <ClCompile Include="Persist\EntityKey_Persist.c">
+      <Filter>源文件\Persist</Filter>
+    </ClCompile>
+    <ClCompile Include="Persist\Play_Persist.c">
+      <Filter>源文件\Persist</Filter>
+    </ClCompile>
+    <ClCompile Include="Persist\Query_Persist.c">
+      <Filter>源文件\Persist</Filter>
+    </ClCompile>
+    <ClCompile Include="Persist\Sale_Persist.c">
+      <Filter>源文件\Persist</Filter>
+    </ClCompile>
+    <ClCompile Include="Persist\SalesAnalysis_Persist.c">
+      <Filter>源文件\Persist</Filter>
+    </ClCompile>
+    <ClCompile Include="Persist\Schedule_Persist.c">
+      <Filter>源文件\Persist</Filter>
+    </ClCompile>
+    <ClCompile Include="Persist\Seat_Persist.c">
+      <Filter>源文件\Persist</Filter>
+    </ClCompile>
+    <ClCompile Include="Persist\Studio_Persist.c">
+      <Filter>源文件\Persist</Filter>
+    </ClCompile>
+    <ClCompile Include="Persist\Ticket_Persist.c">
+      <Filter>源文件\Persist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\软件1901第4组TTMS剧院管理系统\View\Account_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
